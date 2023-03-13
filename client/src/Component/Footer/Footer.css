@@ -1,0 +1,123 @@
+.main-footer{
+    width: 100vh auto;
+    height: auto;
+    background-color: #211e1e;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* margin: 0% auto; */
+}
+h2{
+    color:#00BFFF;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+  .csocial{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fi:hover{
+    cursor: pointer;
+  }
+@media screen  and (max-width:588px) {
+    .main-footer{
+   padding:10px 0px 0px 0px;
+   display: grid;
+   height: 25rem;
+
+    }
+    .class1{
+        position: relative;
+        right: 60px;
+    }
+     h2{
+        text-align:start;
+    }
+    .class2{
+        position: relative;
+        left: 70px;
+        bottom: 137px;
+        gap: 2rem;
+        padding-left: 150px;
+    }
+    .class3{
+        position: relative;
+        right: 60px;
+        bottom: 70px;
+    }
+    .class4{
+        position: relative;
+        left: 70px;
+        /* top: 20px; */
+        bottom: 180px;
+        gap: 2rem;
+        padding-left: 150px;
+        text-align: center;
+    }
+
+}
+@media screen  and (max-width:500px) {
+    .main-footer{
+        display: grid;
+    }
+}
+@media screen  and (max-width:460px) {
+.main-footer{
+    display: grid;
+}
+.class1{
+    position: relative;
+    right: 40px;
+}
+h2{
+    text-align:start;
+}
+.class2{
+    position: relative;
+    left: 45px;
+    bottom: 135px;
+    gap: 2rem;
+    padding-left: 150px;
+}
+.class3{
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
+.class4{
+    position: relative;
+    left: 55px;
+    bottom: 155px;
+    gap: 2rem;
+    padding-left: 150px;
+}
+}
+@media screen  and (max-width:380px) {
+    /* .main2{
+        padding: 10px;
+    } */
+    .main-footer{
+        padding: 10px 40px;
+    }
+    .class1{
+        padding-left: 10px;
+    }
+    .class2{
+        padding-right: 5px;
+    }
+    .class3{
+
+        padding-left: 20px;
+    }
+    .class4{
+        text-align: center;
+        padding-right: 5px;
+    }
+
+}

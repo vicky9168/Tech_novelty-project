@@ -1,0 +1,162 @@
+.main-div{
+    height: 100vh auto;
+    background-color: rgb(44, 43, 43);
+}
+.main-div >h3{
+    color: #00BFFF;
+    text-align: center;
+    padding: 20px 0px;
+}
+.que-ans{
+    color: white;
+    /* display: flex; */
+    gap: 0.5rem;
+    /* justify-content; */
+}
+.p1{
+    font-weight: 600;
+    padding-left: 60px;
+}
+.main-span{
+    color: white;
+    position: relative;
+    bottom: 40px;
+    padding-left: 20px;
+}
+.span2{
+    padding-left: 60px;
+    text-align:left;
+    /* justify-content: center; */
+}
+
+
+
+
+/* form section */
+.form-main{
+    /* margin: auto; */
+    width: 60% auto;
+    /* width: calc(100%-50%); */
+}
+.f-h2{
+    color: #00BFFF;
+    text-align: center;
+}
+.f-main{
+    display: grid;
+    margin: 60px 100px 80px 100px;
+    gap:1rem;
+    /* grid-template-columns: auto; */
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    /* width: 100vh auto; */
+}
+.f-main input,.f1 textarea{
+    padding: 7px;
+width:100%;
+
+}
+.btn2{
+    width: 150px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #00BFFF;
+    cursor: pointer;
+}
+/* Responsive */
+
+@media screen and (max-width:500px) {
+.f-main{
+    margin: 60px 20px 80px 20px;
+}
+/* .f1{
+    display: grid;
+    gap: 1rem;
+
+}
+.f1>input{
+    width: auto;
+} */
+}
+
+/* contact */
+.main-contact{
+padding-bottom: 30px;
+}
+.c-head,.c-head1 h3{
+    color:#00BFFF;
+    text-align: center;
+}
+.li-items{
+    color: white;
+    display: grid;
+    /* display: flex; */
+}
+.li-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    padding-bottom: 10px;
+    /* ma */
+
+}
+.li-items ul li{
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.li-items ul li:first-child{
+border-bottom: 2px solid #00BFFF;
+}
+.c-head1>p{
+    color: white;
+    text-align: center;
+}
+.c-head1{
+border: 2px solid white;
+margin: 0px 80px 0px 80px;
+padding-top: 20px;
+
+}
+.c-form{
+    display: grid;
+    margin: 60px 100px 80px 100px;
+    gap:1.5rem;
+}
+.c-form input,.c-form textarea{
+    border-radius: ;
+}
+.btn3{
+    width: 150px;
+    background-color: #00BFFF;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #75d0ee;
+}
+
+/* Responsive */
+@media screen and (max-width:600px) {
+    .c-form{
+       margin: 10px;
+        justify-content: center;
+
+    }
+    .btn3{
+       width: 100px;
+       justify-content: center;
+    }
+    .c-head1{
+        margin: 0px 50px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:420px) {
+    .c-head1{
+        margin: 0px 20px;
+        padding: 10px;
+    }  
+}

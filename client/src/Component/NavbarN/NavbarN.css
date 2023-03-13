@@ -1,0 +1,24 @@
+.N{
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-icon{
+    /* background-color: #343a40; */
+    background-color: transparent; 
+}
+.i1 i:hover{
+    cursor: pointer;
+}
+strong{
+    padding-left: 80px;
+}
+@media screen and (max-width:1000px){
+    .N{
+        padding-right: 0%;
+        /* display:block; */
+    }
+    strong{
+        padding-left: 0px;
+    }
+}
